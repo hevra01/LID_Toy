@@ -1,3 +1,9 @@
+"""
+This file has the code to generate spiral and grid both clean and noisy. 
+It can measure the density and LID. But there is smth wrong with the LID calculation.
+slope = d - D => so LID = slope + D
+"""
+
 from scipy.stats import multivariate_normal
 import numpy as np
 import matplotlib.pyplot as plt
