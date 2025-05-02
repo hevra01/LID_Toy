@@ -70,7 +70,7 @@ for i, sigma in enumerate(sigmas):
 
     filename = f"LID_Toy/data/line_vs_grid_data/frame_line_grid_{i:03d}.png"
     plt.tight_layout()
-    plt.savefig(filename)
+    #plt.savefig(filename)
     plt.close()
     filenames.append(filename)
 
